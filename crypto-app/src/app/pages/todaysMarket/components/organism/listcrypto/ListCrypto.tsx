@@ -2,109 +2,163 @@ import React from "react";
 import "./listcrypto.scss";
 import Image from "next/image";
 const ListCrypto = () => {
+
+
+  const categories = [
+    "Crypto",
+    "Defi",
+    "BSC",
+    "NFT",
+    "Polkadot",
+    "Solana",
+    "Opensea",
+    "Makersplace",
+  ];
+
   return (
-    <div className="listcrypto-wrapper">
-      <div className="row">
-        <div
-          className="btn-toolbar mb-2"
-          role="toolbar"
-          aria-label="Toolbar with button groups"
-        >
-          <div className="btn-group mr-2" role="group" aria-label="First group">
+
+    <div className="container shadow  rounded-4 ">
+      <div className="row py-4">
+        <div className="d-flex gap-2 mb-4 flex-wrap">
+          {categories.map((category) => (
             <button
-              type="button"
-              className="btn btn-primary btn-active rounded-pill"
+              key={category}
+              className={`category ${category === 'Crypto' ? 'btn btn-active btn-primary rounded-pill' : ' btn btn-outline-secondary rounded-pill'}`}
             >
-              Crypto
+              {category}
             </button>
-            <button type="button" className="mx-2 btn btn-white rounded-pill">
-              Defi
-            </button>
-            <button type="button" className="mx-2 btn btn-white rounded-pill">
-              BSC
-            </button>
-            <button type="button" className="mx-2 btn btn-white rounded-pill">
-              NFT
-            </button>
-            <button type="button" className="mx-2 btn btn-white rounded-pill">
-              Metaverse
-            </button>
-            <button type="button" className="mx-2 btn btn-white rounded-pill">
-              Polkadot
-            </button>
-            <button type="button" className="mx-2 btn btn-white rounded-pill">
-              Solana
-            </button>
-            <button type="button" className="mx-2 btn btn-white rounded-pill">
-              Opensea
-            </button>
-            <button type="button" className="mx-2 btn btn-white rounded-pill">
-              Makersplace
-            </button>
-          </div>
+          ))}
+
         </div>
-        <div className="col col-md-6 col-lg-3 col-sm-12">
-          <div className="market-live d-flex flex-column">
-            <div className="market-live-icon flex-row ">
-              <Image
-                src="/assets/header/btc.svg"
-                alt="Ethereum"
-                width={44}
-                height={44}
-              />
-              <h3 className="market-live-title">Bitcoin</h3>
+        <div className="col-lg-3 col-md-4 col-sm-6 col-12 ">
+          <div className="card border-1 rounded-5 shadow-sm">
+            <div className="card-body">
+              <div className="d-flex align-items-center">
+                <Image
+                  className=""
+                  src="/assets/header/btc.svg"
+                  alt="Ethereum"
+                  width={24}
+                  height={24}
+                />
+                <h6 className="market-title mx-2 mt-2 fw-bold ">Bitcoin </h6>
+                <p className="text-secondary small mt-3">BTC/USD</p>
+              </div>
+              <div className="d-flex flex-column">
+                <div className="my-3">
+                  <h4 className="fw-bold">USD 46,168.95</h4>
+                </div>
+                <div className="d-flex align-items-center">
+                  <div>36,641,20</div>
+                  <div className="badge bg-danger rounded-pill text-center ms-2 ">-0.79</div>
+                </div>
+
+
+              </div>
+
+
             </div>
 
-            <div className="market-live-value">$4,267.90</div>
           </div>
         </div>
-        <div className="col col-md-6 col-lg-3 col-sm-12">
-          <div className="market-live d-flex flex-column">
-            <div className="market-live-icon  ">
-              <Image
-                src="/assets/header/eth.svg"
-                alt="Ethereum"
-                width={44}
-                height={44}
-              />
-              <h3 className="market-live-title ">Ethereum</h3>
-            </div>
-            <div className="market-live-value">$4,267.90</div>
-          </div>
-        </div>
-        <div className="col col-md-6 col-lg-3 col-sm-12">
-          <div className="market-live d-flex flex-column">
-            <div className="market-live-icon  ">
-              <Image
-                src="/assets/header/tether.svg"
-                alt="Ethereum"
-                width={44}
-                height={44}
-              />
-              <h3 className="market-live-title ">Tether</h3>
+        <div className="col-lg-3 col-md-4 col-sm-6 col-12 ">
+          <div className="card border-1 rounded-5 shadow-sm">
+            <div className="card-body">
+              <div className="d-flex align-items-center">
+                <Image
+                  className=""
+                  src="/assets/header/eth.svg"
+                  alt="Ethereum"
+                  width={24}
+                  height={24}
+                />
+                <h6 className="market-title mx-2 mt-2 fw-bold ">Ethereum </h6>
+                <p className="text-secondary small mt-3">ETH/USD</p>
+              </div>
+              <div className="d-flex flex-column">
+                <div className="my-3">
+                  <h4 className="fw-bold">USD $3,480.04</h4>
+                </div>
+
+                <div className="d-flex align-items-center">
+                  <div>36,641,20</div>
+                  <div className="badge bg-success rounded-pill text-center ms-2 ">+10.55%</div>
+                </div>
+
+
+              </div>
+
+
             </div>
 
-            <div className="market-live-value">$4,267.90</div>
           </div>
         </div>
-        <div className="col col-md-6 col-lg-3 col-sm-12">
-          <div className="market-live d-flex flex-column">
-            <div className="market-live-icon flex-row ">
-              <Image
-                src="/assets/header/bnb.svg"
-                alt="Ethereum"
-                width={44}
-                height={44}
-              />
-              <h3 className="market-live-title ">BNB BNB/USD</h3>
+        <div className="col-lg-3 col-md-4 col-sm-6 col-12 ">
+          <div className="card border-1 rounded-5 shadow-sm">
+            <div className="card-body">
+              <div className="d-flex align-items-center">
+                <Image
+                  className=""
+                  src="/assets/header/tether.svg"
+                  alt="Ethereum"
+                  width={24}
+                  height={24}
+                />
+                <h6 className="market-title mx-2 mt-2 fw-bold ">Tether </h6>
+                <p className="text-secondary small mt-3">USDT/USD</p>
+              </div>
+              <div className="d-flex flex-column">
+                <div className="my-3"><h3 className="fw-bold">USD 1.00</h3></div>
+
+                <div className="d-flex align-items-center">
+                  <div>36,641,20</div>
+                  <div className="badge bg-danger rounded-pill text-center ms-2 ">-0.01%</div>
+                </div>
+
+
+              </div>
+
+
             </div>
 
-            <div className="market-live-value">$4,267.90</div>
           </div>
         </div>
+        <div className="col-lg-3 col-md-4 col-sm-6 col-12 ">
+          <div className="card border-1 rounded-5 shadow-sm">
+            <div className="card-body">
+              <div className="d-flex align-items-center">
+                <Image
+                  className=""
+                  src="/assets/header/bnb.svg"
+                  alt="Ethereum"
+                  width={24}
+                  height={24}
+                />
+                <h6 className="market-title mx-2 mt-2 fw-bold ">BNB </h6>
+                <p className="text-secondary small mt-3">BNB/USD</p>
+              </div>
+              <div className="d-flex flex-column">
+                <div className="my-3"><h4 className="fw-bold">USD 443.56</h4></div>
+
+                <div className="d-flex align-items-center">
+                  <div>36,641,20</div>
+                  <div className="badge bg-danger rounded-pill text-center ms-2 ">-1.24%</div>
+                </div>
+
+
+              </div>
+
+
+            </div>
+
+          </div>
+        </div>
+
+
       </div>
+
     </div>
-  );
+  )
 };
 
 export default ListCrypto;

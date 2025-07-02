@@ -4,16 +4,16 @@ import Image from "next/image";
 
 const LearnEarnBlog = () => {
   return (
-    <div className="blog-wrapper">
-      <div className="blog-heading text-center">
-        <p className="blog-header">Learn And Earn</p>
-        <p className="blog-subheader">
+    <div className="container py-5">
+      <div className="d-flex flex-column align-items-center">
+        <h1 >Learn And Earn</h1>
+        <h5 className="text-body-tertiary">
           Stacks is a production-ready library of stackable content blocks built
           in React Native.
-        </p>
+        </h5>
       </div>
-      <div className="row">
-        <div className="col col-md-4">
+      <div className="py-4 row">
+        <div className="col-12 col-md-4">
           <div className="media-container d-flex justify-content-center align-items-center">
             <div className="play-button d-flex justify-content-center align-items-center">
               <Image
@@ -42,7 +42,7 @@ const LearnEarnBlog = () => {
             </div>
           </div>
         </div>
-        <div className="col col-md-4">
+        <div className="col-12 col-md-4">
           <div className="media-container d-flex justify-content-center align-items-center">
             <div className="play-button d-flex justify-content-center align-items-center">
               <Image
@@ -71,7 +71,7 @@ const LearnEarnBlog = () => {
             </div>
           </div>
         </div>
-        <div className="col col-md-4">
+        <div className="col-12 col-md-4">
           <div className="media-container d-flex justify-content-center align-items-center">
             <div className="play-button d-flex justify-content-center align-items-center">
               <Image

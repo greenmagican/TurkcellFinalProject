@@ -41,8 +41,8 @@ const Navbar = () => {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul className="navbar-nav nav-left d-flex align-items-center">
-            <li className="nav-item dropdown nav-item-left">
+          <ul className="navbar-nav me-auto d-flex align-items-center">
+            <li className="nav-item dropdown me-3 ">
               <Link
                 className="nav-link dropdown-toggle homepage-btn"
                 href="#"
@@ -132,8 +132,8 @@ const Navbar = () => {
             </li>
           </ul>
 
-          <ul className="navbar-nav nav_2 d-flex align-items-center">
-            <li className="nav-item nav-item-2 dropdown  ">
+          <ul className="navbar-nav ms-auto d-flex align-items-center mx-5">
+            <li className="nav-item dropdown  ">
               <a
                 className="nav-link dropdown-toggle"
                 href="#"
@@ -171,7 +171,7 @@ const Navbar = () => {
               >
                 Orders & Trades
               </a>
-              <ul className="dropdown-menu nav-item-right">
+              <ul className="dropdown-menu">
                 <li>
                   <Link className="dropdown-item" href="#">
                     empty slot
@@ -218,7 +218,7 @@ const Navbar = () => {
               </ul>
             </li>
 
-            <li className="nav-item  symbol-1 ">
+            <li className="nav-item me-2 ">
               <Link className="nav-link " href="#">
                 <Image
                   src="/assets/header/sun.svg"
@@ -228,7 +228,7 @@ const Navbar = () => {
                 />
               </Link>
             </li>
-            <li className="nav-item  symbol-2 ">
+            <li className="nav-item me-2 ">
               <Link className="nav-link " href="#">
                 <Image
                   src="/assets/header/Vector.svg"
@@ -238,8 +238,8 @@ const Navbar = () => {
                 />
               </Link>
             </li>
-            <li className="nav-item wallet-item ">
-              <Link className="nav-link circle-link" href="#">
+            <li className="nav-item me-2 ">
+              <Link className="nav-link " href="#">
                 <span className=" d-flex align-items-center justify-content-center">
                   <span className="">Wallet</span>
                 </span>

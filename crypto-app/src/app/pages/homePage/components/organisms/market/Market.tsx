@@ -37,7 +37,13 @@ const Market = () => {
         const res = await fetch("/api/homepagemarket");
         const data = await res.json();
 
-        const formattedData: CryptoData[] = data.map((coin: any) => ({
+        console.log("API response", data);
+
+        const coins = Array.isArray(data) ? data : data.data; // Dizi mi kontrol et
+        const formattedData: CryptoData[] = coins.map((coin: any) => ({
+
+
+
           id: coin.id,
           name: coin.name,
           symbol: coin.symbol,

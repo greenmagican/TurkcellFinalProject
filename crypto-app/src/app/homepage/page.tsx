@@ -6,9 +6,12 @@ import About from "../pages/homePage/components/organisms/about/About";
 import DownloadApp from "../pages/homePage/components/organisms/downloadapp/DownloadApp";
 import Testimonials from "../pages/homePage/components/organisms/testimonial/Testimonials";
 import Calltoaction from "../pages/homePage/components/organisms/calltoaction/Calltoaction";
+import Footer from "../pages/homePage/components/organisms/footer/Footer";
+import Navbar from "../pages/homePage/components/organisms/navbar/Navbar";
 const Homepage = () => {
   return (
     <>
+      <Navbar />
       <Slider />
       <Market />
       <HowItWork />
@@ -16,6 +19,7 @@ const Homepage = () => {
       <DownloadApp />
       <Testimonials />
       <Calltoaction />
+      <Footer />
     </>
   );
 };
