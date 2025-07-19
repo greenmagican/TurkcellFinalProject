@@ -13,7 +13,7 @@ const Navbar = () => {
   const router = useRouter();
 
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="sticky-top navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid fix-navbar">
         <Link
           className="navbar-brand d-flex align-items-center"
@@ -241,7 +241,7 @@ const Navbar = () => {
             <li className="nav-item me-2 ">
               <Link className="nav-link " href="#">
                 <span className=" d-flex align-items-center justify-content-center">
-                  <span className="">Wallet</span>
+                  <button className="btn btn-outline-secondary rounded-pill">Wallet</button>
                 </span>
               </Link>
             </li>
@@ -251,12 +251,7 @@ const Navbar = () => {
                 className="nav-link "
                 href={user ? `/profile/${user.uid}` : "/login"}
               >
-                <Image
-                  src="/assets/header/mail.jpg"
-                  alt="profile"
-                  width={30}
-                  height={30}
-                />
+                <button className="btn btn-outline-secondary rounded-pill">Login/Register</button>
               </Link>
             </li>
             {user && (

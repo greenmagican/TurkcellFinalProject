@@ -6,7 +6,7 @@ import Navbar from "../pages/homePage/components/organisms/navbar/Navbar";
 const Login = () => {
   return (
     <>
-
+      <Navbar />
       <Breadcrumb header={"Login"} />
       <LoginPage />
     </>
