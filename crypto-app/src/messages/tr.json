@@ -1,0 +1,456 @@
+{
+  "HomePage": {
+    "title": "selam Dünya"
+  },
+  "Navbar": {
+    "left": {
+      "header": "Rocket",
+      "home": {
+        "title": "Ana Sayfa",
+        "login": "Giriş",
+        "register": "Üye Ol",
+        "profile": "Profil"
+      },
+      "buy": "Kripto Satın Al",
+      "market": "Piyasalar",
+      "exchange": "Borsa",
+      "spot": "Spot",
+      "bitusdt": "BITUSDT",
+      "pages": "Sayfalar"
+    },
+    "right": {
+      "assets": "Varlıklar",
+      "order": "Emirler ve İşlemler",
+      "wallet": "Cüzdan",
+      "login": "Giriş",
+      "register": "Üye Ol",
+      "profile": "Profil",
+      "logout": "Çıkış"
+    }
+  },
+
+  "Banner": {
+    "header": "Rocket'ta Dijital Varlıkları Alıp Sat",
+    "subheader": "Coin Rocket, kripto varlık borsasını alıp satmanın en kolay, en güvenli ve en hızlı yoludur.",
+    "partners": "Ortaklarımız",
+    "start": "Haydi Şimdi Başla"
+  },
+
+  "Market": {
+    "header": "Piyasa Güncellenmeleri",
+    "see": "Tüm Coinleri Görün",
+    "search": "Coin Ara",
+
+    "tabs": {
+      "view": "Tümünü Gör",
+      "meta": "Sanal Evren",
+      "entertainment": "Eğlence",
+      "energy": "Energy",
+      "gaming": "Oyun",
+      "music": "Müzik"
+    },
+
+    "marketTable": {
+      "name": "İsim",
+      "last": "Son Fiyat",
+      "cap": "Market Hacmi",
+      "days": "Son 7 Gün",
+      "trade": "Ticaret"
+    }
+  },
+
+  "HowItWork": {
+    "header": "Nasıl Çalışır",
+    "subheader": "Stacks, React Native'de oluşturulmuş yığınlanabilir içerik bloklarından oluşan üretime hazır bir kütüphanedir.",
+    "step1": {
+      "name": "Step 1",
+      "header": "İndir",
+      "exp": "Stacks, React Native'de oluşturulmuş yığınlanabilir içerik bloklarından oluşan üretime hazır bir kütüphanedir."
+    },
+    "step2": {
+      "name": "Step 2",
+      "header": "Cüzdanı Bağla",
+      "exp": "Stacks, React Native'de oluşturulmuş yığınlanabilir içerik bloklarından oluşan üretime hazır bir kütüphanedir."
+    },
+    "step3": {
+      "name": "Step 3",
+      "header": "Ticarete Başla",
+      "exp": "Stacks, React Native'de oluşturulmuş yığınlanabilir içerik bloklarından oluşan üretime hazır bir kütüphanedir."
+    },
+    "step4": {
+      "name": "Step 4",
+      "header": "Para Kazan",
+      "exp": "Stacks, React Native'de oluşturulmuş yığınlanabilir içerik bloklarından oluşan üretime hazır bir kütüphanedir."
+    }
+  },
+
+  "About": {
+    "title": "Rockie Nedir?",
+    "desc": "Bitcost'ta çeşitli alım satım deneyimlerini yaşayın. Spot Ticaret, Vadeli İşlemler, P2P, Staking, Madencilik ve Marjin gibi çeşitli kripto işlemlerini kullanabilirsiniz.",
+    "feature1": "Gerçek zamanlı kripto fiyatlarını görüntüleyin",
+    "feature2": "BTC, ETH, XRP, OKB, vb. alım satımı yapın",
+    "button": "Daha Fazlasını Keşfet"
+  },
+
+  "Download": {
+    "title": "Paranı özgür bırak ve güvenle yatırım yap",
+    "desc1": "Cryptor Trade ile ticaret becerilerinize güvenebilirsiniz",
+    "feature1Title": "Al, Sat ve Her Yerden İşlem Yap",
+    "feature1Desc": "Varlıklarını mobil cihazından yönet",
+    "feature2Title": "Varlıklarının Kontrolü Sende Olsun",
+    "feature2Desc": "Sadece senin fonlarına erişimin olduğundan emin ol"
+  },
+
+  "Testimonials": {
+    "heading": "Müşterilerimiz Yaptığımız İşi Seviyor",
+    "subheading": "Finsweet ile fikrini gerçeğe dönüştür",
+    "paragraph": "Bir okuyucunun sayfanın düzenine bakarken içerikten dikkati dağılacağı uzun zamandır bilinen bir gerçektir.",
+    "reviewCount": "Müşteri Yorumu",
+    "testimonial": "Harika bir kurs, gerçekten çok keyif aldım. Kodun açıklamaları çok iyiydi, kolayca anlayıp uygulamalar geliştirebildim.",
+    "name": "Johny Andro",
+    "title": "Yönetici, Şirket"
+  },
+
+  "Calltoaction": {
+    "title": "25$'a kadar kripto para kazanın",
+    "description": "Belirli kripto para birimlerinin nasıl çalıştığını keşfedin — ve her birini denemeniz için biraz kazanın.",
+    "button": "Hesap Oluştur"
+  },
+
+  "Footer": {
+    "part1": [
+      {
+        "label": "Spot"
+      },
+
+      {
+        "label": "Fatura Vadeli"
+      },
+      {
+        "label": "USDT Vadeli"
+      },
+
+      {
+        "label": "Borsa"
+      },
+
+      {
+        "label": "Launchpad"
+      },
+
+      {
+        "label": "Binance Pay"
+      }
+    ],
+    "title": "Hadi konuşalım! 👍",
+    "phone": "+90 535 930 7942",
+    "email": "egemenaksoz98@gmail.com",
+    "copyright": "Telif Hakkı © 2023 Dünya Halkı İçin Ücretsiz",
+    "products": "Ürünler",
+    "services": "Hizmetler",
+
+    "part2": [
+      {
+        "label": "Kripto Satın Al"
+      },
+
+      {
+        "label": "Piyasalar"
+      },
+
+      {
+        "label": "Trend Ücret"
+      },
+
+      {
+        "label": "Ortaklık Programı"
+      },
+
+      {
+        "label": "Referans Programı"
+      },
+
+      {
+        "label": "API"
+      }
+    ],
+
+    "support": "Destek",
+
+    "part3": [
+      {
+        "label": "Doğru Öğren"
+      },
+      {
+        "label": "Yardım Merkezi"
+      },
+      {
+        "label": "Kullanıcı Geri Bildirimi"
+      },
+
+      {
+        "label": "Talep Gönder"
+      },
+
+      {
+        "label": "API Dökümantasyonu"
+      },
+
+      {
+        "label": "Ticaret Kuralları"
+      }
+    ],
+
+    "about": "Hakkımızda",
+
+    "part4": [
+      {
+        "label": "Rocket Hakkında"
+      },
+      {
+        "label": "Doğruluk Kontrolü"
+      },
+      {
+        "label": "Kariyer"
+      },
+      {
+        "label": "İş İletişimi"
+      },
+      {
+        "label": "Blog"
+      }
+    ]
+  },
+
+  "TodayMarket": {
+    "Banner": {
+      "title": "Güncel Kripto Para Fiyatları",
+      "subtitle": "Global kripto piyasasının toplam değeri"
+    },
+    "TrendTable": {
+      "search": "Coin Ara",
+      "title": "Market Trendleri",
+      "ascending": "Artan",
+      "high": "24h Yüksek",
+      "low": "24h Düşük",
+      "change": "24h Değişim",
+      "volume": "24h Hacim",
+      "graph": "Grafik",
+      "action": "Eylem",
+      "trade": "Ticaret"
+    }
+  },
+
+  "LearnEarnBlog": {
+    "title": "Öğren ve Kazan",
+    "subtitle": "Stacks, React Native ile oluşturulmuş istiflenebilir içerik bloklarının üretime hazır bir kütüphanesidir.",
+    "button": "ÖĞREN&KAZAN",
+    "description": "UI8 coin hakkında bilgi edin ve Tüm Erişim Kartı kazan",
+    "author": "Floyd Buckridge",
+    "date": "03 Şub 2021"
+  },
+
+  "MarketDashboard": {
+    "TradeNav": {
+      "wallet": "Cüzdan",
+      "search": "Ara"
+    },
+    "SideBar": {
+      "logoText": "Rockie",
+      "home": "Ana Sayfa",
+      "buyCrypto": "Kripto Satın Al",
+      "market": "Piyasa",
+      "exchange": "Borsa",
+      "spot": "Spot",
+      "byfiCenter": "ByFi Merkezi",
+      "more": "Daha Fazla",
+      "asset": "Varlıklar",
+      "orderTrades": "Emirler & İşlemler",
+      "wallet": "Cüzdan",
+      "logout": "Çıkış Yap"
+    },
+    "PairInfo": {
+      "price": "Son fiyat",
+      "change": "24h Değişim",
+      "high": "24h Yüksek",
+      "low": "24h Düşük",
+      "volume": "24h Hacim"
+    },
+
+    "ChartInfos": {
+      "title": "Ticaret Piyasası",
+      "1m": "1dk",
+      "5m": "5dk",
+      "15m": "15dk",
+      "4h": "4sa",
+      "D": "G",
+      "W": "H",
+      "M": "A",
+      "Y": "Y"
+    },
+
+    "BuySell": {
+      "buy": "Al",
+      "sell": "Sat",
+      "market": "Piyasa",
+      "pay": "Öde",
+      "receive": "Al"
+    },
+
+    "BalanceContainer": {
+      "balance": "Senin Bakiyen",
+      "topup": "Bakiyeni Ekle",
+      "assets": "Varlıklarınız"
+    },
+
+    "OrderHistory": {
+      "openOrders": "Açık Emirler",
+      "closedOrders": "Kapalı Emirler",
+      "searchPlaceholder": "Tarihe Göre Ara",
+      "date": "Tarih",
+      "pair": "Parite",
+      "type": "Al/Sat",
+      "price": "Fiyat",
+      "executed": "Gerçekleşen",
+      "total": "Toplam"
+    },
+
+    "OrderBook": {
+      "title": "Emir Defteri",
+      "price": "Fiyat (BTC)",
+      "amount": "Miktar (ETH)",
+      "total": "Toplam (BTC)"
+    },
+
+    "RecentTrades": {
+      "title": "Son İşlemler",
+      "time": "Zaman",
+      "price": "Fiyat (BTC)",
+      "amount": "Miktar (ETH)"
+    },
+
+    "PriceChange": {
+      "pair": "Parite",
+      "lastPrices": "Son Fiyat",
+      "changes": "Değişim"
+    }
+  },
+  "BreadCrumb": {
+    "header": "Kayıt Ol",
+    "home": "Ev",
+    "register": "Kayıt",
+    "profile": "Kullanıcı Profili",
+    "login": "Giriş Yap"
+  },
+
+  "register": {
+    "title": "Rockie'ye Kayıt Ol",
+    "subtitle": "Önceden kayıt olun ve etkinlik avantajlarından yararlanın",
+    "method": {
+      "email": "E-posta",
+      "mobile": "Mobil"
+    },
+    "email": {
+      "label": "E-posta/Kimlik",
+      "placeholder": "Lütfen e-posta adresini girin",
+      "authenticate": "Doğrula"
+    },
+    "password": {
+      "label": "Şifre",
+      "hint": "En az bir rakam, bir küçük harf ve bir büyük harf içermelidir",
+      "placeholder": "Lütfen şifreyi girin"
+    },
+    "confirmPassword": {
+      "placeholder": "Lütfen şifrenizi tekrar girin"
+    },
+    "nickname": {
+      "label": "Takma Ad",
+      "hint": "(İsteğe bağlı - Özel karakterler hariç)",
+      "placeholder": "Lütfen takma ad girin"
+    },
+    "country": {
+      "label": "Ülke",
+      "placeholder": "Ülke seçin...",
+      "countries": {
+        "KR": "Güney Kore (+82)",
+        "CA": "Kanada (+1)",
+        "AU": "Avustralya (+61)",
+        "TR": "Türkiye (+90)",
+        "DE": "Almanya (+49)",
+        "FR": "Fransa (+33)",
+        "JP": "Japonya (+81)",
+        "CN": "Çin (+86)",
+        "IN": "Hindistan (+91)"
+      }
+    },
+    "phone": {
+      "label": "Telefon",
+      "placeholder": "Lütfen telefon numarasını girin"
+    },
+    "submit": "Ön Kayıt",
+    "alreadyHaveAccount": "Zaten bir hesabınız var mı?",
+    "login": "Giriş Yap"
+  },
+
+  "login": {
+    "title": "Rockie'ye Giriş Yap",
+    "subtitle": "Tekrar hoş geldiniz! İşlem yapmaya başlamak için giriş yapın",
+    "secure": "https://accounts.rockie.com/login",
+    "method": {
+      "email": "E-posta",
+      "mobile": "Mobil"
+    },
+    "email": {
+      "label": "E-posta/Kimlik",
+      "placeholder": "Lütfen e-posta adresini girin",
+      "invalid": "Lütfen geçerli bir e-posta girin!"
+    },
+    "password": {
+      "label": "Şifre",
+      "placeholder": "Lütfen şifrenizi girin",
+      "invalid": "(8 veya daha fazla karakter, rakam ve özel karakter içermelidir)"
+    },
+    "submit": "Giriş Yap",
+    "notMember": "Üye değil misiniz?",
+    "register": "Kayıt Ol",
+    "error": "E-posta veya şifre hatalı!"
+  },
+
+  "Homepage": {
+    "homepage": "Ana Sayfa"
+  },
+
+  "LocaleSwitcher": {
+    "label": "Dil Seçiniz",
+    "locale": {
+      "en": "EN/USD",
+      "tr": "TR/TRY"
+    }
+  },
+  "Chatbot": {
+    "title": "AI Asistanı",
+    "welcome": "Merhaba! Ben asistanınızım. Kripto paralar veya diğer konular hakkında bana istediğinizi sorabilirsiniz!",
+    "inputPlaceholder": "Sorunuzu buraya yazın...",
+    "typing": "Düşünüyorum...",
+    "apiKeyMissing": "API anahtarı yapılandırılmamış. Yerel yanıtlar kullanılıyor.",
+    "quotaExceeded": "OpenAI API kotası aşıldı. Yerel yanıtlar kullanılıyor.",
+    "generalTopics": "Sadece kripto para değil, çok çeşitli konularda sorulara cevap verebilirim. Teknoloji, bilim, tarih ve daha fazlası hakkında soru sormaktan çekinmeyin!",
+    "responses": {
+      "bitcoin": "Bitcoin, 2009 yılında Satoshi Nakamoto takma adını kullanan bilinmeyen bir kişi tarafından oluşturulan ilk kripto paradır. Merkezi bir banka veya yönetici olmadan çalışan merkezi olmayan bir dijital para birimidir.",
+      "ethereum": "Ethereum, akıllı sözleşme işlevselliğine sahip merkezi olmayan, açık kaynaklı bir blok zinciridir. Ether, platformun yerel kripto para birimidir.",
+      "blockchain": "Blok zinciri, kriptografi kullanılarak bağlanan ve güvence altına alınan, blok adı verilen sürekli büyüyen kayıt listesini koruyan dağıtılmış bir veritabanıdır.",
+      "wallet": "Kripto para cüzdanı, kripto para işlemleri için genel ve/veya özel anahtarları saklayan bir cihaz, fiziksel ortam, program veya hizmettir.",
+      "mining": "Kripto para madenciliği, işlemleri doğrulama ve bunları blok zinciri defterine ekleme sürecidir. Ayrıca dolaşıma yeni madeni paralar da sunar.",
+      "nft": "NFT'ler (Değiştirilemez Tokenlar), blok zincirinde belirli bir öğenin veya içerik parçasının sahipliğini temsil eden benzersiz dijital varlıklardır.",
+      "defi": "DeFi (Merkeziyetsiz Finans), çoğunlukla Ethereum olmak üzere blok zincirlerinde akıllı sözleşmeler kullanan finansal hizmetleri ifade eder.",
+      "altcoin": "Altcoin'ler, Bitcoin dışındaki kripto paralardır. Genellikle Bitcoin'e göre farklı özellikler veya iyileştirmeler sunarlar.",
+      "exchange": "Kripto para borsası, kripto para birimlerini satın alabileceğiniz, satabileceğiniz ve takas edebileceğiniz bir platformdur.",
+      "token": "Kripto para dünyasında token, mevcut bir blok zinciri üzerine inşa edilmiş bir teknoloji veya kripto projesi tarafından verilen bir değer birimidir."
+    },
+    "defaultResponses": {
+      "one": "Bundan emin değilim. Daha spesifik bir şey sorabilir misiniz?",
+      "two": "Bu ilginç bir soru! Belirli bir cevabım olmasa da, teknoloji, bilim, tarih ve kripto paralar dahil olmak üzere çeşitli konulardaki sorularınıza yardımcı olabilirim.",
+      "three": "Bu alan hakkında hala öğreniyorum. İlgilendiğiniz diğer konular hakkında bana soru sormaktan çekinmeyin."
+    }
+  }
+}

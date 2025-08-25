@@ -1,0 +1,449 @@
+{
+  "HomePage": {
+    "title": "Hello world!"
+  },
+  "Navbar": {
+    "left": {
+      "header": "Rocket",
+      "home": {
+        "title": "Homepage",
+        "login": "Login",
+        "register": "Register",
+        "profile": "Profile"
+      },
+      "buy": "Buy Crypto",
+      "market": "Markets",
+      "exchange": "Exchange",
+      "spot": "Spot",
+      "bitusdt": "BITUSDT",
+      "pages": "Pages"
+    },
+    "right": {
+      "assets": "Assets",
+      "order": "Orders & Trades",
+      "wallet": "Wallet",
+      "login": "Login",
+      "register": "Register",
+      "profile": "Profile",
+      "logout": "Logout"
+    }
+  },
+  "Banner": {
+    "header": "Buy & Sell Digital Assets In The Rocket",
+    "subheader": "Coin rocket is easiest, safest and fastest way to buy & sell crypto asset exchange.",
+    "partners": "Our Partners",
+    "start": "Get Started Now"
+  },
+
+  "Market": {
+    "header": "Market Update",
+    "see": "See All Coin",
+    "search": "Search Coin",
+    "tabs": {
+      "view": "View All",
+      "meta": "Metaverse",
+      "entertainment": "Entertainment",
+      "energy": "Energy",
+      "gaming": "Gaming",
+      "music": "Music"
+    },
+    "marketTable": {
+      "name": "Name",
+      "last": "Last Price",
+      "cap": "Market Cap",
+      "days": "Last 7 Days",
+      "trade": "Trade"
+    }
+  },
+
+  "HowItWork": {
+    "header": "How It Work",
+    "subheader": "Stacks is a production-ready library of stackable content blocks built in React Native.",
+    "step1": {
+      "name": "Step 1",
+      "header": "Download",
+      "exp": "Stacks is a production-ready library of stackable content blocks built in React Native."
+    },
+    "step2": {
+      "name": "Step 2",
+      "header": "Connect Wallet",
+      "exp": "Stacks is a production-ready library of stackable content blocks built in React Native."
+    },
+    "step3": {
+      "name": "Step 3",
+      "header": "Start Trading",
+      "exp": "Stacks is a production-ready library of stackable content blocks built in React Native."
+    },
+    "step4": {
+      "name": "Step 4",
+      "header": "Earn Money",
+      "exp": "Stacks is a production-ready library of stackable content blocks built in React Native."
+    }
+  },
+
+  "About": {
+    "title": "What is Rockie",
+    "desc": "Experience a variety of trading on Bitcost. You can use various types of coin transactions such as Spot Trade, Futures Trade, P2P, Staking, Mining, and margin.",
+    "feature1": "View real-time cryptocurrency prices",
+    "feature2": "Buy and sell BTC, ETH, XRP, OKB, Etc...",
+    "button": "Explore More"
+  },
+
+  "Download": {
+    "title": "Free your money & Invest with confident",
+    "desc1": "With Cryptor Trade, you can be sure your trading skills are matched",
+    "feature1Title": "Buy, Sell, And Trade On The Go",
+    "feature1Desc": "Manage your holdings from your mobile decive",
+    "feature2Title": "Take Control Of Your Wealth",
+    "feature2Desc": "Rest assured you (and only you) have access to your funds"
+  },
+  "Testimonials": {
+    "heading": "Our Customers Love What We Do",
+    "subheading": "Transform your idea into reality with finsweet",
+    "paragraph": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "reviewCount": "Customer Reviews",
+    "testimonial": "Great course I really enjoyed it and the course was way easy to learn with very good explanations of the code, I could easily understand and develop applications with the knowledge gathered during the course.",
+    "name": "Johny Andro",
+    "title": "Director, Company"
+  },
+
+  "Calltoaction": {
+    "title": "Earn up to $25 worth of crypto",
+    "description": "Discover how specific cryptocurrencies work — and get a bit of each crypto to try out for yourself.",
+    "button": "Create Account"
+  },
+
+  "Footer": {
+    "part1": [
+      {
+        "label": "Spot"
+      },
+
+      {
+        "label": "Invoice Perpetual"
+      },
+      {
+        "label": "USDT Perpetual"
+      },
+
+      {
+        "label": "Exchange"
+      },
+
+      {
+        "label": "Launchpad"
+      },
+
+      {
+        "label": "Binance Pay"
+      }
+    ],
+
+    "title": "Let's talk! 👍",
+    "phone": "+90 535 930 7942",
+    "email": "egemenaksoz98@gmail.com",
+    "copyright": "Copyright © 2023 Free For Earth's People",
+    "products": "Products",
+    "services": "Services",
+
+    "part2": [
+      {
+        "label": "Buy Crypto"
+      },
+
+      {
+        "label": "Markets"
+      },
+
+      {
+        "label": "Trending Fee"
+      },
+
+      {
+        "label": "Affiliate Program"
+      },
+
+      {
+        "label": "Referral Program"
+      },
+
+      {
+        "label": "API"
+      }
+    ],
+
+    "support": "Support",
+
+    "part3": [
+      {
+        "label": "Right Learn"
+      },
+      {
+        "label": "Help Center"
+      },
+      {
+        "label": "User Feedback"
+      },
+
+      {
+        "label": "Submit A Request"
+      },
+
+      {
+        "label": "API Documentation"
+      },
+
+      {
+        "label": "Trading Rules"
+      }
+    ],
+    "about": "About Us",
+
+    "part4": [
+      {
+        "label": "About Rocket"
+      },
+      {
+        "label": "Authenticity Check"
+      },
+      {
+        "label": "Careers"
+      },
+      {
+        "label": "Business Contacts"
+      },
+      {
+        "label": "Blog"
+      }
+    ]
+  },
+
+  "TodayMarket": {
+    "Banner": {
+      "title": "Today's Cryptocurrency prices",
+      "subtitle": "The global crypto market cap is"
+    },
+
+    "TrendTable": {
+      "search": "Search Coin",
+      "title": "Market Trends",
+      "ascending": "Ascending",
+      "high": "24h High",
+      "low": "24h Low",
+      "change": "24h Change",
+      "volume": "24h Volume",
+      "graph": "Chart",
+      "action": "Action",
+      "trade": "Trade"
+    }
+  },
+
+  "LearnEarnBlog": {
+    "title": "Learn And Earn",
+    "subtitle": "Stacks is a production-ready library of stackable content blocks built in React Native.",
+    "button": "LEARN&EARN",
+    "description": "Learn about UI8 coin and earn an All-Access Pass",
+    "author": "Floyd Buckridge",
+    "date": "Feb 03, 2021"
+  },
+
+  "MarketDashboard": {
+    "TradeNav": {
+      "wallet": "Wallet",
+      "search": "Search Anything"
+    },
+    "SideBar": {
+      "logoText": "Rockie",
+      "home": "Home",
+      "buyCrypto": "Buy Crypto",
+      "market": "Market",
+      "exchange": "Exchange",
+      "spot": "Spot",
+      "byfiCenter": "ByFi Center",
+      "more": "More",
+      "asset": "Asset",
+      "orderTrades": "Order & Trades",
+      "wallet": "Wallet",
+      "logout": "Logout"
+    },
+    "PairInfo": {
+      "price": "Last price",
+      "change": "24h Change",
+      "high": "24h High",
+      "low": "24h Low",
+      "volume": "24h Volume"
+    },
+
+    "ChartInfos": {
+      "title": "Trading Market",
+      "1m": "1m",
+      "5m": "5m",
+      "15m": "15m",
+      "4h": "4h",
+      "D": "D",
+      "W": "W",
+      "M": "M",
+      "Y": "Y"
+    },
+    "BuySell": {
+      "buy": "Buy",
+      "sell": "Sell",
+      "market": "Market",
+      "pay": "Pay",
+      "receive": "Receive"
+    },
+    "BalanceContainer": {
+      "balance": "Your Balance",
+      "topup": "Top up balance",
+      "assets": "Your assets"
+    },
+
+    "OrderHistory": {
+      "openOrders": "Open Orders",
+      "closedOrders": "Closed Orders",
+      "searchPlaceholder": "Search By Date",
+      "date": "Date",
+      "pair": "Pair",
+      "type": "Buy/Sell",
+      "price": "Price",
+      "executed": "Executed",
+      "total": "Total"
+    },
+
+    "OrderBook": {
+      "title": "Order Book",
+      "price": "Price (BTC)",
+      "amount": "Amount (ETH)",
+      "total": "Total (BTC)"
+    },
+
+    "RecentTrades": {
+      "title": "Recent Trades",
+      "time": "Time",
+      "price": "Price (BTC)",
+      "amount": "Amount (ETH)"
+    },
+    "PriceChange": {
+      "pair": "Pair",
+      "lastPrices": "Last Prices",
+      "changes": "Changes"
+    }
+  },
+  "BreadCrumb": {
+    "header": "Register",
+    "home": "Home",
+    "register": "Register",
+    "profile": "User Profile",
+    "login": "Sign In"
+  },
+
+  "register": {
+    "title": "Register To Rockie",
+    "subtitle": "Register in advance and enjoy the event benefits",
+    "method": {
+      "email": "Email",
+      "mobile": "Mobile"
+    },
+    "email": {
+      "label": "Email/ID",
+      "placeholder": "Please fill the e-mail",
+      "authenticate": "Authenticate"
+    },
+    "password": {
+      "label": "Password",
+      "hint": "At least one number, one small letter, and one capital letter",
+      "placeholder": "Please fill the password"
+    },
+    "confirmPassword": {
+      "placeholder": "Please re-enter your password"
+    },
+    "nickname": {
+      "label": "Nick Name",
+      "hint": "(Optional - Excluding special characters)",
+      "placeholder": "Please enter the nickname"
+    },
+    "country": {
+      "label": "Country",
+      "placeholder": "Select country...",
+      "countries": {
+        "KR": "South Korea (+82)",
+        "CA": "Canada (+1)",
+        "AU": "Australia (+61)",
+        "TR": "Turkey (+90)",
+        "DE": "Germany (+49)",
+        "FR": "France (+33)",
+        "JP": "Japan (+81)",
+        "CN": "China (+86)",
+        "IN": "India (+91)"
+      }
+    },
+    "phone": {
+      "label": "Phone",
+      "placeholder": "Please enter the number"
+    },
+    "submit": "Pre-Registration",
+    "alreadyHaveAccount": "Already have an account?",
+    "login": "Log In"
+  },
+
+  "login": {
+    "title": "Login To Rockie",
+    "subtitle": "Welcome back! Log in now to start trading",
+    "secure": "https://accounts.rockie.com/login",
+    "method": {
+      "email": "Email",
+      "mobile": "Mobile"
+    },
+    "email": {
+      "label": "Email/ID",
+      "placeholder": "Please enter your email",
+      "invalid": "Please enter a valid email!"
+    },
+    "password": {
+      "label": "Password",
+      "placeholder": "Please enter your password",
+      "invalid": "(8 or more characters, including numbers and special characters)"
+    },
+    "submit": "Login",
+    "notMember": "Not a Member?",
+    "register": "Register",
+    "error": "Email or password is incorrect!"
+  },
+
+  "Homepage": {
+    "homepage": "Home Page"
+  },
+  "LocaleSwitcher": {
+    "label": "Select Language",
+    "locale": {
+      "en": "EN/USD",
+      "tr": "TR/TRY"
+    }
+  },
+  "Chatbot": {
+    "title": "AI Assistant",
+    "welcome": "Hello! I'm your assistant. Ask me anything about cryptocurrencies or other topics!",
+    "inputPlaceholder": "Type your question here...",
+    "typing": "Thinking...",
+    "apiKeyMissing": "API key is not configured. Using local responses instead.",
+    "quotaExceeded": "OpenAI API quota exceeded. Using local responses instead.",
+    "generalTopics": "I can answer questions on a wide range of topics beyond just cryptocurrency. Feel free to ask about technology, science, history, and more!",
+    "responses": {
+      "bitcoin": "Bitcoin is the first cryptocurrency, created in 2009 by an unknown person using the alias Satoshi Nakamoto. It's a decentralized digital currency without a central bank or administrator.",
+      "ethereum": "Ethereum is a decentralized, open-source blockchain with smart contract functionality. Ether is the native cryptocurrency of the platform.",
+      "blockchain": "Blockchain is a distributed database that maintains a continuously growing list of records, called blocks, which are linked and secured using cryptography.",
+      "wallet": "A cryptocurrency wallet is a device, physical medium, program or service which stores the public and/or private keys for cryptocurrency transactions.",
+      "mining": "Cryptocurrency mining is the process of validating transactions and adding them to the blockchain ledger. It also releases new coins into circulation.",
+      "nft": "NFTs (Non-Fungible Tokens) are unique digital assets that represent ownership of a specific item or piece of content on the blockchain.",
+      "defi": "DeFi (Decentralized Finance) refers to financial services using smart contracts on blockchains, most commonly Ethereum.",
+      "altcoin": "Altcoins are cryptocurrencies other than Bitcoin. They often offer different features or improvements over Bitcoin.",
+      "exchange": "A cryptocurrency exchange is a platform where you can buy, sell, and trade cryptocurrencies.",
+      "token": "In cryptocurrency, a token is a unit of value issued by a tech or crypto project, built on an existing blockchain."
+    },
+    "defaultResponses": {
+      "one": "I'm not sure about that. Could you ask something more specific?",
+      "two": "That's an interesting question! While I don't have a specific answer, I can help with questions about various topics including technology, science, history, and cryptocurrencies.",
+      "three": "I'm still learning about that area. Feel free to ask me about other topics you're interested in."
+    }
+  }
+}
