@@ -26,7 +26,7 @@ const BtcCard: React.FC<BtcCardProps> = ({ src, alt, price, amount, change, titl
                     <div className="d-flex align-items-center">
                         <div className="amount">{amount}</div>
                         <div className={`${change > 0 ? "bg-success" : "bg-danger"} badge rounded-pill text-center ms-2`}>
-                            {change}
+                            {`${change}%`}
                         </div>
                     </div>
                 </div>

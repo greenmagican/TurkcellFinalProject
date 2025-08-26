@@ -6,14 +6,13 @@ import TrendsDropdown from "@/components/molecules/TrendsDropdown/TrendsDropdown
 import useMarketTrends from "@/hooks/useMarketTrends";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useTranslations } from "next-intl";
-import { Sparklines, SparklinesLine } from "react-sparklines";
 
 
 const MarketTrends = () => {
 
   const tMarketTrends = useTranslations("TodayMarket.TrendTable");
 
-  const { sortedCryptos, setSearchTerm, handleCategoryChange, searchTerm, selectedCategory, loading, error } = useMarketTrends();
+  const { sortedCryptos, setSearchTerm, searchTerm, selectedCategory, loading, error } = useMarketTrends();
 
   if (loading) {
     return (

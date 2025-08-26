@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Sparklines, SparklinesLine } from "react-sparklines";
 import { useTranslations } from "next-intl";
@@ -10,15 +10,10 @@ import Button from "@/components/atoms/Button/Button";
 import CoinInfo from "@/components/molecules/CoinInfo/CoinInfo";
 import Input from "@/components/atoms/Input/Input";
 
-
-
-
-
-const Market = () => {
+const Market: React.FC = () => {
 
   const tMarket = useTranslations("Market");
-
-  const { cryptoData, loading, error, searchTerm, setSearchTerm, setSelectedCategory, selectedCategory } = useMarketData();
+  const { cryptoData, loading, error, searchTerm, setSearchTerm, selectedCategory } = useMarketData();
 
   const categories = [
     tMarket("tabs.view"),
@@ -28,7 +23,6 @@ const Market = () => {
     tMarket("tabs.gaming"),
     tMarket("tabs.music"),
   ];
-
   return (
     <div className="container mt-4">
       <div>

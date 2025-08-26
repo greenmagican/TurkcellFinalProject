@@ -4,5 +4,4 @@ export interface ButtonInterface extends React.ButtonHTMLAttributes<HTMLButtonEl
     children: React.ReactNode,
     type?: "button" | "reset" | "submit",
 
-
 }

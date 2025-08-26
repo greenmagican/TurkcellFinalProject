@@ -93,4 +93,4 @@ const useMarketTrends = () => {
     }
 }
 
-export default useMarketTrends
+export default useMarketTrends  
