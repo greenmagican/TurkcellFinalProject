@@ -9,6 +9,7 @@ import { useAuthState } from "../../../app/services/authServices";
 import { signOut } from "firebase/auth";
 import { auth } from "../../../../firebase/firebase";
 import LocaleSwitcher from '@/components/molecules/LocaleSwitcher/LocaleSwitcher';
+import Button from '@/components/atoms/Button/Button';
 
 
 
@@ -47,9 +48,7 @@ const TradeNavBar = () => {
                                 </button>
                             </div>
                         </li>
-
                         <LocaleSwitcher />
-
                         <li className="nav-item  symbol-1 ">
                             <ThemeToggleIcon />
                         </li>
@@ -63,10 +62,7 @@ const TradeNavBar = () => {
                                         <button className="btn btn-outline-secondary rounded-pill">{tRight("wallet")}</button>
                                     </Link>
                                 </li>
-
                             </li>
-
-
                             {!user &&
                                 <li className="nav-item rounded">
 
@@ -77,10 +73,9 @@ const TradeNavBar = () => {
                                     </Link>
                                 </li>
                             }
-
                             {user && (
                                 <li className="nav-item">
-                                    <button
+                                    <Button
                                         className="btn btn-danger ms-2"
                                         onClick={async () => {
                                             await signOut(auth);
@@ -88,13 +83,11 @@ const TradeNavBar = () => {
                                         }}
                                     >
                                         Logout
-                                    </button>
+                                    </Button>
                                 </li>
                             )}
 
                         </div>
-
-
                     </ul>
                 </div>
             </div>

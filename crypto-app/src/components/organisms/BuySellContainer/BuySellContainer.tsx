@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { useTranslations } from "next-intl";
 import BalanceContainer from '../BalanceContainer/BalanceContainer';
+import Button from '@/components/atoms/Button/Button';
+import Input from '@/components/atoms/Input/Input';
 
 const BuySellContainer = () => {
 
@@ -28,29 +30,29 @@ const BuySellContainer = () => {
                 <div className="card-body py-5">
                     <ul className="nav-underline nav nav-fill justify-content-center gap-2">
                         <li className="nav-item mx-2 ">
-                            <button className={`nav-link ${condition === "buy" ? "active" : ""}`} onClick={changeColor}>
+                            <Button className={`nav-link ${condition === "buy" ? "active" : ""}`} onClick={changeColor}>
                                 <h3 className="fw-bold">{tBuySell("buy")}</h3>
-                            </button>
+                            </Button>
                         </li>
                         <li className="nav-item">
-                            <button className="nav-link " onClick={changeColor}>
+                            <Button className="nav-link " onClick={changeColor}>
                                 <h3 className="fw-bold ">{tBuySell("sell")}</h3>
-                            </button>
+                            </Button>
                         </li>
                     </ul>
                     <div className="menu-tab d-flex align-items-center justify-content-center gap-2 mt-5 mb-5">
-                        <button className="btn btn-primary rounded-pill">
+                        <Button className="btn btn-primary rounded-pill">
                             Limit
-                        </button>
-                        <button className="btn btn-link text-decoration-none">
+                        </Button>
+                        <Button className="btn btn-link text-decoration-none">
                             {tBuySell("market")}
-                        </button>
-                        <button className="btn btn-link text-decoration-none">
+                        </Button>
+                        <Button className="btn btn-link text-decoration-none">
                             Stop limit
-                        </button>
-                        <button className="btn btn-link text-decoration-none">
+                        </Button>
+                        <Button className="btn btn-link text-decoration-none">
                             Stop market
-                        </button>
+                        </Button>
                     </div>
 
                     <div className="input-group flex-column gap-4">
@@ -84,7 +86,7 @@ const BuySellContainer = () => {
                         </div>
 
                         <div className="pay-btc d-flex">
-                            <input
+                            <Input
                                 type="text"
                                 className="form-control w-100"
                                 placeholder={tBuySell("receive")}

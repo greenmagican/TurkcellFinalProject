@@ -1,13 +1,10 @@
 import React from 'react'
 import { CircleCheckBig, CircleX } from "lucide-react";
 import styles from "./stylesTable.module.scss";
-
-import { useState } from "react";
 import { useTranslations } from 'next-intl';
-
+import OrderHistoryButtons from '../OrderHistoryButtons/OrderHistoryButtons';
 const OrderHistory = () => {
 
-    const [activeTab, setActiveTab] = useState("tab1");
     const tOrderHistory = useTranslations("MarketDashboard.OrderHistory")
     const orderHistoryData = [
         {
@@ -62,48 +59,7 @@ const OrderHistory = () => {
     return (
         <section className="order-history my-5">
             <div className="card border-2 border-secondary border-opacity-50 ">
-                <div className="card-header d-flex justify-content-between">
-                    <div className="left-buttons ">
-                        <ul className="nav-underline nav gap-5 ">
-                            <li className="nav-item">
-                                <button
-                                    className={`nav-link ${activeTab === "tab1" ? "active" : ""
-                                        }`}
-                                    onClick={() => setActiveTab("tab1")}
-                                >
-                                    <h5>{tOrderHistory("openOrders")}</h5>
-                                </button>
-                            </li>
-                            <li className="nav-item">
-                                <button
-                                    className={`nav-link ${activeTab === "tab2" ? "active" : ""
-                                        }`}
-                                    onClick={() => setActiveTab("tab2")}
-                                >
-                                    <h5>{tOrderHistory("closedOrders")}</h5>
-                                </button>
-                            </li>
-                            <li className="nav-item">
-                                <button
-                                    className={`nav-link ${activeTab === "tab3" ? "active" : ""
-                                        }`}
-                                    onClick={() => setActiveTab("tab3")}
-                                >
-                                    <h5>{tOrderHistory("closedOrders")}</h5>
-                                </button>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="history-search">
-                        <div className="input-group ">
-                            <input
-                                type="text"
-                                className="form-control rounded-pill  "
-                                placeholder={tOrderHistory("searchPlaceholder")}
-                            />
-                        </div>
-                    </div>
-                </div>
+                <OrderHistoryButtons />
                 <div className="card-body">
                     <div className="table-responsive">
                         <table className="table table-hover table-borderless custom-gap">

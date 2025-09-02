@@ -21,11 +21,9 @@ const OrderBook = () => {
     return (
 
         <div className="card">
-
             <div className="card-header d-flex ">
                 <h4 className='fw-bold market-title'>{tOrderBook("title")}</h4>
             </div>
-
             <div className="card-body">
                 <div className="table-responsive-sm">
                     <table className="table  table-hover table-borderless custom-gap">
@@ -38,7 +36,6 @@ const OrderBook = () => {
                                 <th className="text-center" scope="col">
                                     {tOrderBook("total")}
                                 </th>
-
                             </tr>
                         </thead>
                         <tbody>
@@ -47,7 +44,6 @@ const OrderBook = () => {
                                     <td className="text-start">{order.price}</td>
                                     <td>{order.amount}</td>
                                     <td>{order.total}</td>
-
                                 </tr>
                             ))}
                         </tbody>
